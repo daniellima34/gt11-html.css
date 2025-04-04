@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+}
+.container{
+    background-color: darkcyan;
+    width: 100%;
+height: 100vh;
+display: flex;
+}
+.container .esquerda{
+    width: 50%;
+    height: 100%;
+display: flex ;flex-direction: column;
+padding: 50px;
+
+}
+
+    
+    .container .direita{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items:  center;
+        justify-content: center;
+    }
+
+    .container .esquerda h5{
+        color: gold;
+        font-size: 50px;
+    }
+
+    .container .esquerda label{
+        font-weight: bold;
+        font-size: 20px ;
+        color: black;
+
+    }
+
+    .container .esquerda input{
+        width: 90%;
+        height: 30px;
+        background-color: rgb(229, 245, 245);
+        border:1px solid #cccccc;
+        border-radius: 8px;
+        outline: none;
+        margin-bottom: 20px;
+    }
+
+    .container .esquerda #check{
+        width: 20px;
+        height: 20px;
+        margin-top: 17px;
+    }
+
+
+    .container .esquerda .opcoes button{
+        width: 20%;
+        height: 40px;
+        border:none;
+        border-radius: 8px;
+     color: white;
+    background-color: red;
+    font-weight: bold;
+    transition: all 300ms ease-in-out; 
+    
+    }
+
+    .container .esquerda .opcoes button:hover{
+        cursor: pointer;
+        background-color: #d9ebe1;
+        border: 1px solid rgb(232, 15, 15);
+        color: red;
+    }
+    
+    .container .esquerda .opcoes a{
+        text-decoration: none;
+        color: red;
+        font-size: 17px;
+    
+    }
+    
+    .container .esquerda .opcoes {
+       display: flex;
+        gap: 30px;
+        align-items: center;
+
+    }
+
+    .container .esquerda .termos { 
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+    }
+    
+
+    
+
+    
